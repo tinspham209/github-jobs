@@ -8,6 +8,8 @@
 
 ### Screenshot
 
+<img src="https://i.imgur.com/nQimGlr.png"/>
+
 ### Tech-Stack
 
 - React
@@ -56,6 +58,14 @@ Next Steps:
 ├── README.md
 ├── public
 └── src
+    ├── components
+        ├── Job
+        ├── Pagination
+        ├── SearchForm
+        └── UI
+            └── Spinner
+    ├── hooks
+        └── useFetchJob.js
     ├── App.js
     ├── App.css
     ├── index.css
