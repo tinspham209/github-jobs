@@ -20,11 +20,6 @@
 
 https://jobs.github.com/api
 
-### Deploy
-
-[Live Site](link)
-[Live Server](link)
-
 ### Plan Of Action
 
 - Initial Project
@@ -32,6 +27,8 @@ https://jobs.github.com/api
 - create useFetchJob function to Fetch API
 - create Job component
 - create Pagination
+- create Search
+- Filter Job with full-time
 
 ### After this project
 
@@ -44,7 +41,9 @@ I have understand about
 - use `cancelToken` of axios to cancel get request when you typing every character.
 - use react-bootstrap for style component without css file
 - how to create pagination with react-bootstrap
-- handle variable with fetchData `hasNextPage` to add Pagination nextPage
+- handle variable `hasNextPage` when fetchData to add Pagination nextPage
+- create search form with bootstrap
+- handle Params Change
 
 Next Steps:
 
