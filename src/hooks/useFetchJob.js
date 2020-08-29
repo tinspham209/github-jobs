@@ -37,6 +37,7 @@ export const useFetchJobs = (params, page) => {
 	useEffect(() => {
 		const cancelTokenCurrentPage = axios.CancelToken.source();
 		dispatch({ type: ACTIONS.MAKE_REQUEST });
+
 		axios
 			.get(BASE_URL, {
 				cancelToken: cancelTokenCurrentPage.token,
